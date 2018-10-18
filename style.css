@@ -1,0 +1,158 @@
+
+.header-area {
+    /* background: #282b37; */
+    /* padding-top: 24px; */
+    /* padding-bottom:  20px; */
+    position:  relative;
+    /* width:  100%; */
+}
+
+.navbar-brand {
+    width: 100%;
+    height: 100%;
+    display: block !important;
+}
+
+.menu {
+    width: 100%;
+    position: relative;
+}
+
+.menu li a {
+    color: #222 !IMPORTANT;
+    font-size: 20px;
+    /* padding: 10px; */
+    /* background: black; */
+    transition: 0.3s ease-in;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.menu .li {
+    display: block;
+}
+
+.menu {
+    display: block;
+    /* width: 785px; */
+}
+
+.logo img {
+    width: 100%;
+    height: 300px;
+}
+
+.menu-area {
+    background: pink !IMPORTANT;
+}
+
+.menu {
+    text-align: center;
+    width: 992px;
+}
+
+.menu li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.menu li:hover a {
+    color: black !IMPORTANT;
+    /* background: black; */
+}
+
+.blog_area {
+    margin-top: 40px;
+}
+
+.blog_content h2 {
+    font-size: 23px;
+    padding: 10px 0px;
+    padding-bottom: 2px;
+}
+
+.date_time span {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.date_time span small {
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+.date_time span:first-child {
+    margin-left: 0;
+}
+
+.bl_s_c {
+    padding-top: 15px;
+    color: #777474;
+}
+
+.bl_s_c a {
+    display: block;
+    color: #545050;
+    transition: 0.3s ease-in;
+}
+
+.bl_s_c a:hover {
+    color: #151514;
+}
+
+.blog_area .col-sm-6 {
+    /* width: 50%; */
+}
+
+section.blog_sidebar_area {
+    margin-top: 40px;
+}
+
+.re_img {
+    width: 30%;
+    float: left;
+}
+
+.re_t {
+    /* float: right; */
+}
+
+.sing_re {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.r_c_c {
+    float: right;
+    width: 70%;
+    padding-left: 18px;
+}
+
+.r_c_c {}
+
+.side_bar_t h4 {
+    text-transform: capitalize;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #DDd;
+    margin-bottom: 30px;
+}
+
+ul.cat li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+.cat {
+    border: 1px solid #ddd;
+}
+
+ul.cat li a {
+    color: #222;
+    transition: 0.3s ease-in;
+}
+
+ul.cat li:hover a {
+    color: #555;
+}
