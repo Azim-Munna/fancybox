@@ -7,6 +7,7 @@
     <title>Team - e.ventures</title>
     <link rel="shortcut icon" href="assest/img/n/favicon.png" />
     <link rel="stylesheet" href="">
+   
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -16,6 +17,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!-- frencybox -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+     <!-- aos css -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css" />
     <!-- reset link -->
     <link rel="stylesheet" href="assest/css/reset.css">
     <!-- main css -->
@@ -206,28 +209,173 @@
     <!-- 3. Have fun! -->
     <!-- section frency box section -->
     <!-- video secton  -->
- <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
+<section class="container">
+     <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&amp;autoplay=1&amp;rel=0&amp;controls=0&amp;showinfo=0">
     YouTube video - hide controls and info
 </a>
 
 <a data-fancybox href="https://vimeo.com/191947042?color=f00">
     Vimeo video - custom color
 </a>
+</section>
     <!-- video secton  -->
+<!-- aos js section -->
+<section class="blog_sidebar_area">
+        <div class="container">
+            <div class="row">
+                <!-- blog -->
+                <div class="col-sm-9">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="single_blog "data-aos="fade-up">
+                                <div class="blog_img">
+                                    <img src="assest/img/7.jpg" alt="">
+                                        </div>
+                                    <div class="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <div class="date_time">
+                                            <span class="dat">date: <small>16-10-18</small></span>
+                                            <span class="author">author: <small>admin</small></span>
+                                            <span class="cm">comment(2)</span>
+                                        </div>
+                                        <div class="bl_s_c">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minus magnam asperiores, explicabo dolorum officiis provident modi qui soluta nisi.
+                                            <a href="#">read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="single_blog " data-aos="fade-in">
+                                    <div class="blog_img">
+                                        <img src="assest/img/9.jpg" alt="">
+                                        </div>
+                                        <div class="blog_content">
+                                            <h2>Lorem ipsum dolor sit amet.</h2>
+                                            <div class="date_time">
+                                                <span class="dat">date: <small>16-10-18</small></span>
+                                                <span class="author">author: <small>admin</small></span>
+                                                <span class="cm">comment(2)</span>
+                                            </div>
+                                            <div class="bl_s_c">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque minus magnam asperiores, explicabo dolorum officiis provident modi qui soluta nisi.
+                                                <a href="#">read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-sm-4"></div> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="side_bar">
+                                <div class="side_bar_t">
+                                    <h4>recent post</h4>
+                                </div>
+                                <div class="recent_p">
+                                    <div class="sing_re">
+                                        <div class="re_img">
+                                            <a href="#"><img src="assest/img/4c.jpg" alt=""></a>
+                                        </div>
+                                        <div class="r_c_c">
+                                            <div class="re_t">Lorem ipsum.</div>
+                                            <p>Lorem ipsum dolor.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sing_re">
+                                        <div class="re_img">
+                                            <a href="#"><img src="assest/img/1.jpg" alt=""></a>
+                                        </div>
+                                        <div class="r_c_c">
+                                            <div class="re_t">Lorem ipsum.</div>
+                                            <p>Lorem ipsum dolor.</p>
+                                        </div>
+                                    </div>
+                                    <div class="sing_re">
+                                        <div class="re_img">
+                                            <a href="#"> <img src="assest/img/3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="r_c_c">
+                                            <div class="re_t">Lorem ipsum.</div>
+                                            <p>Lorem ipsum dolor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="side_bar_t">
+                                <h4>categories</h4>
+                            </div>
+                            <ul class="cat">
+                                <li><a href="#">female items</a></li>
+                                <li><a href="#">male items</a></li>
+                                <li><a href="#">boy baby items</a></li>
+                                <li><a href="#">girl baby items</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    </section>
+<!-- aos js section -->
+<section class="container">
+
+
+    <div class="item item--primary"
+     data-aos="fade-left"
+     data-aos-anchor="#trigger-right">
+  RIGHT
+</div>
+
+<div class="item item--secondary"
+     data-aos="fade-right"
+     data-aos-anchor="#trigger-left">
+  LEFT
+</div>
+
+<div class="item"  data-aos="fade-up-left">1</div>
+<div class="item" data-aos="fade-down-right">2</div>
+<div class="item"data-aos="flip-left">3</div>
+<div class="item" data-aos="zoom-in">4</div>
+<div class="item" id="trigger-left">
+  5
+  <span>trigger left</span>
+</div>
+<div class="item"data-aos="zoom-in-right">6</div>
+<div class="item">7</div>
+<div class="item" id="trigger-right">
+  8
+  <span>trigger right</span>
+</div>
+<div class="item"data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">9 2000</div>
+<div class="item">10</div>
+<div class="item">11</div>
+<div class="item">12</div>
+
+</section>
+<!-- aos js section -->
 
     <footer>
         <p> Copyright &copy; All Rights Reserved.</p>
     </footer>
     <!-- script -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"></script> -->
     <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/just-animate/2.5.0/just-animate-all.min.js"></script> -->
+<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
     <script src="assest/js/packery-mode.pkgd.js"></script>
     <script src="assest/js/skript.js"></script>
+    <script>
+        
+AOS.init({
+ duration: 1200
+});
+    </script>
 </body>
 
 </html>
